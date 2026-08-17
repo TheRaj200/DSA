@@ -7,7 +7,7 @@ for(let i = 2 ; i<arr.length ; i++){
     if(arr[i]> max){
         smax = max;
         max = arr[i];
-    }else if(arr[i]>smax){
+    }else if(arr[i]>smax && arr[i]!=max){
         smax= arr[i];
     }
 }
