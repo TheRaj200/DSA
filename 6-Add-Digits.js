@@ -1,4 +1,4 @@
-let num = 10;
+let num = 12;
     while (num >= 10) {
         let sum = 0;
 
@@ -6,7 +6,7 @@ let num = 10;
             let digit = num % 10;
             sum = sum + digit;
             num = Math.floor(num / 10);
-        }
+        } 
 
         num = sum;
     }
