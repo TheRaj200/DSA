@@ -35,7 +35,6 @@
 // 1 <= accounts[i][j] <= 100
 
 
-
 var maximumWealth = function (accounts) {
     let newarr = [];
     for (let i = 0; i < accounts.length; i++) {
