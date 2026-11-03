@@ -13,3 +13,4 @@ var twoSum = function(nums, target) {
         index.set(nums[i], i);
     }
 };
+
