@@ -90,7 +90,11 @@
 var myAtoi = function(s) {
     let i = 0;
     let sign = 1;
+
+    
     let num = 0;
+
+
     let digit = 0;
     while (s[i] === " ") {
         i++;
